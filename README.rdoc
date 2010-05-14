@@ -28,7 +28,7 @@ for creating key-value arrays from arrays and hashes, and
 * values
 * consolidate
 * expand
-* invert
+* invert_key_value
 * to_hash
 
 for arrays that are key-value arrays

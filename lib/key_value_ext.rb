@@ -48,7 +48,6 @@ class Array
     acts_as_key_value!(:invert)
     self.expand.flip.consolidate
   end
-  alias_method :invert, :invert_key_value
 
   def keys
     acts_as_key_value!(:keys)
