@@ -1,0 +1,40 @@
+= Key Value Extensions for Array
+
+A library of key-value operations
+
+== Resources
+
+Install
+
+* sudo gem install key_value_ext
+
+Use
+
+* require 'key_value_ext'
+
+	
+== Description
+
+A key-value array is one with the structure [[key1, val2], [key2, [value2, value3, ...]], ... ].
+
+This library provides the following functions
+
+* map_key_value
+* group_key_value
+
+for creating key-value arrays from arrays and hashes, and
+
+* keys
+* values
+* consolidate
+* expand
+* invert
+* to_hash
+
+for arrays that are key-value arrays
+
+== Usage
+
+Good for laying out complex nested views and forms when group_by is not enough.
+
+See the spec for examples.
