@@ -71,6 +71,5 @@ class Hash
   def invert_key_value
     self.to_a.invert_key_value
   end
-  alias_method :invert, :invert_key_value
 end
 
